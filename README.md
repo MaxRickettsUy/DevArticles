@@ -1,4 +1,4 @@
-# DevArticles
+# Resources
 Collection of Helpful, Interesting and Inspiring Articles
 
 [Assorted](https://github.com/MaxRickettsUy/DevArticles/blob/master/Assorted.md)<br>
