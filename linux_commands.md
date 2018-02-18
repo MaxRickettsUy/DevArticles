@@ -1,4 +1,4 @@
-1 – SYSTEM INFORMATION
+[1 – SYSTEM INFORMATION](#systeminformation)
 2 – HARDWARE INFORMATION
 3 – PERFORMANCE MONITORING AND STATISTICS
 4 – USER INFORMATION AND MANAGEMENT
@@ -14,41 +14,41 @@
 14 – DISK USAGE
 15 – DIRECTORY NAVIGATION
 
-1 – SYSTEM INFORMATION
-# Display Linux system information
+# 1 – SYSTEM INFORMATION <a name="systeminformation"></a>
+## Display Linux system information
 uname -a
 
-# Display kernel release information
+## Display kernel release information
 uname -r
 
-# Show which version of redhat installed
+## Show which version of redhat installed
 cat /etc/redhat-release
 
-# Show how long the system has been running + load
+## Show how long the system has been running + load
 uptime
 
-# Show system host name
+## Show system host name
 hostname
 
-# Display the IP addresses of the host
+## Display the IP addresses of the host
 hostname -I
 
-# Show system reboot history
+## Show system reboot history
 last reboot
 
-# Show the current date and time
+## Show the current date and time
 date
 
-# Show this month's calendar
+## Show this month's calendar
 cal
 
-# Display who is online
+## Display who is online
 w
 
-# Who you are logged in as
+## Who you are logged in as
 whoami
 
-2 – HARDWARE INFORMATION
+# 2 – HARDWARE INFORMATION
 # Display messages in kernel ring buffer
 dmesg
 
