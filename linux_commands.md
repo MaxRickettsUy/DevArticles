@@ -1,18 +1,18 @@
-[1 – SYSTEM INFORMATION](#systeminformation)
-2 – HARDWARE INFORMATION
-3 – PERFORMANCE MONITORING AND STATISTICS
-4 – USER INFORMATION AND MANAGEMENT
-5 – FILE AND DIRECTORY COMMANDS
-6 – PROCESS MANAGEMENT
-7 – FILE PERMISSIONS
-8 – NETWORKING
-9 – ARCHIVES (TAR FILES)
-10 – INSTALLING PACKAGES
-11 – SEARCH
-12 – SSH LOGINS
-13 – FILE TRANSFERS
-14 – DISK USAGE
-15 – DIRECTORY NAVIGATION
+[1 – SYSTEM INFORMATION](#systeminformation)<br>
+[2 – HARDWARE INFORMATION](#hardwareinformation)<br>
+[3 – PERFORMANCE MONITORING AND STATISTICS](#performancemonitoring)<br>
+[4 – USER INFORMATION AND MANAGEMENT](#userinformation)<br>
+[5 – FILE AND DIRECTORY COMMANDS](#filedirectorycmds)<br>
+[6 – PROCESS MANAGEMENT](#processmgmt)<br>
+[7 – FILE PERMISSIONS](#filepermissions)<br>
+[8 – NETWORKING](#networking)<br>
+[9 – ARCHIVES (TAR FILES)](#archives)<br>
+[10 – INSTALLING PACKAGES](#installingpackages)<br>
+[11 – SEARCH](#search)<br>
+[12 – SSH LOGINS](#sshlogins)<br>
+[13 – FILE TRANSFERS](#filetransfers)<br>
+[14 – DISK USAGE](#diskusage)<br>
+[15 – DIRECTORY NAVIGATION](#directorynavigation)<br>
 
 # 1 – SYSTEM INFORMATION <a name="systeminformation"></a>
 ## Display Linux system information
@@ -48,7 +48,7 @@ w
 ## Who you are logged in as
 whoami
 
-# 2 – HARDWARE INFORMATION
+# 2 – HARDWARE INFORMATION<a name="hardwareinformation"></a>
 # Display messages in kernel ring buffer
 dmesg
 
@@ -79,7 +79,7 @@ hdparm -tT /dev/sda
 # Test for unreadable blocks on disk sda
 badblocks -s /dev/sda
 
-3 – PERFORMANCE MONITORING AND STATISTICS
+3 – PERFORMANCE MONITORING AND STATISTICS<a name="performancemonitoring"></a>
 # Display and manage the top processes
 top
 
@@ -116,7 +116,7 @@ free -h
 # Execute "df -h", showing periodic updates
 watch df -h
 
-4 – USER INFORMATION AND MANAGEMENT
+4 – USER INFORMATION AND MANAGEMENT<a name="userinformation"></a>
 # Display the user and group ids of your current user.
 id
 
@@ -141,7 +141,7 @@ userdel john
 # Add the john account to the sales group
 usermod -aG sales john
 
-5 – FILE AND DIRECTORY COMMANDS
+5 – FILE AND DIRECTORY COMMANDS<a name="filedirectorycmds"></a>
 # List all files in a long listing (detailed) format
 ls -al
 
@@ -193,7 +193,7 @@ tail file
 # Display the last 10 lines of file and "follow" the file as it grows.
 tail -f file
 
-6 – PROCESS MANAGEMENT
+6 – PROCESS MANAGEMENT<a name="processmgmt"></a>
 # Display your currently running processes
 ps
 
@@ -227,7 +227,7 @@ fg
 # Brings job n to the foreground
 fg n
 
-7 – FILE PERMISSIONS
+7 – FILE PERMISSIONS<a name="filepermissions"></a>
 Linux chmod example
         PERMISSION      EXAMPLE
 
@@ -250,7 +250,7 @@ Linux chmod example
         x = execute
         - = no access
 
-8 – NETWORKING
+8 – NETWORKING <a name="networking"></a>
 # Display all network interfaces and ip address
 ifconfig -a
 
@@ -287,7 +287,7 @@ wget http://domain.com/file
 # Display listening tcp and udp ports and corresponding programs
 netstat -nutlp
 
-9 – ARCHIVES (TAR FILES)
+9 – ARCHIVES (TAR FILES)<a name="archives"></a>
 # Create tar named archive.tar containing directory.
 tar cf archive.tar directory
 
@@ -306,7 +306,7 @@ tar cjf archive.tar.bz2 directory
 # Extract a bzip2 compressed tar file.
 tar xjf archive.tar.bz2
 
-10 – INSTALLING PACKAGES
+10 – INSTALLING PACKAGES<a name="installingpackages"></a>
 # Search for a package by keyword.
 yum search keyword
 
@@ -329,7 +329,7 @@ cd sourcecode
 make
 make install
 
-11 – SEARCH
+11 – SEARCH<a name="search"></a>
 # Search for pattern in file
 grep pattern file
 
@@ -345,7 +345,7 @@ find /home/john -name 'prefix*'
 # Find files larger than 100MB in /home
 find /home -size +100M
 
-12 – SSH LOGINS
+12 – SSH LOGINS<a name="sshlogins"></a>
 # Connect to host as your local username.
 ssh host
 
@@ -355,7 +355,7 @@ ssh user@host
 # Connect to host using port
 ssh -p port user@host
 
-13 – FILE TRANSFERS
+13 – FILE TRANSFERS<a name="filetransfers"></a>
 # Secure copy file.txt to the /tmp folder on server
 scp file.txt server:/tmp
 
@@ -371,7 +371,7 @@ rsync -a /home /backups/
 # Synchronize files/directories between the local and remote system with compression enabled
 rsync -avz /home server:/backups/
 
-14 – DISK USAGE
+14 – DISK USAGE<a name="diskusage"></a>
 # Show free and used space on mounted filesystems
 df -h
 
@@ -387,7 +387,7 @@ du -ah
 # Display total disk usage off the current directory
 du -sh
 
-15 – DIRECTORY NAVIGATION
+15 – DIRECTORY NAVIGATION<a name="directorynavigation"></a>
 # To go up one level of the directory tree.  (Change into the parent directory.)
 cd ..
 
