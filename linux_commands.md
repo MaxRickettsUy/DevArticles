@@ -49,7 +49,8 @@
 ## Who you are logged in as
 `whoami`
 
-# 2 – HARDWARE INFORMATION<a name="hardwareinformation"></a>
+<a name="hardwareinformation"></a>
+# 2 – HARDWARE INFORMATION
 ## Display messages in kernel ring buffer
 `dmesg`
 
@@ -72,7 +73,7 @@
 `dmidecode`
 
 ## Show info about disk sda
-`hdparm -i /dev/sda``
+`hdparm -i /dev/sda`
 
 ## Perform a read speed test on disk sda
 `hdparm -tT /dev/sda`
@@ -80,7 +81,8 @@
 ## Test for unreadable blocks on disk sda
 `badblocks -s /dev/sda`
 
-# 3 – PERFORMANCE MONITORING AND STATISTICS<a name="performancemonitoring"></a>
+<a name="performancemonitoring"></a>
+# 3 – PERFORMANCE MONITORING AND STATISTICS
 ## Display and manage the top processes
 `top`
 
@@ -117,7 +119,8 @@
 ## Execute "df -h", showing periodic updates
 `watch df -h`
 
-# 4 – USER INFORMATION AND MANAGEMENT<a name="userinformation"></a>
+<a name="userinformation"></a>
+# 4 – USER INFORMATION AND MANAGEMENT
 ## Display the user and group ids of your current user.
 `id`
 
@@ -142,7 +145,8 @@
 ## Add the john account to the sales group
 `usermod -aG sales john`
 
-# 5 – FILE AND DIRECTORY COMMANDS<a name="filedirectorycmds"></a>
+<a name="filedirectorycmds"></a>
+# 5 – FILE AND DIRECTORY COMMANDS
 ## List all files in a long listing (detailed) format
 `ls -al`
 
@@ -194,7 +198,8 @@
 ## Display the last 10 lines of file and "follow" the file as it grows.
 `tail -f file`
 
-# 6 – PROCESS MANAGEMENT<a name="processmgmt"></a>
+<a name="processmgmt"></a>
+# 6 – PROCESS MANAGEMENT
 ## Display your currently running processes
 `ps`
 
@@ -228,7 +233,8 @@
 ## Brings job n to the foreground
 `fg n`
 
-# 7 – FILE PERMISSIONS<a name="filepermissions"></a>
+<a name="filepermissions"></a>
+# 7 – FILE PERMISSIONS
 ## Linux chmod example
         PERMISSION      EXAMPLE
 
@@ -251,7 +257,8 @@
         x = execute
         - = no access
 
-# 8 – NETWORKING <a name="networking"></a>
+<a name="networking"></a>
+# 8 – NETWORKING 
 ## Display all network interfaces and ip address
 `ifconfig -a`
 
@@ -288,7 +295,8 @@
 ## Display listening tcp and udp ports and corresponding programs
 `netstat -nutlp`
 
-# 9 – ARCHIVES (TAR FILES)<a name="archives"></a>
+<a name="archives"></a>
+# 9 – ARCHIVES (TAR FILES)
 ## Create tar named archive.tar containing directory.
 `tar cf archive.tar directory`
 
@@ -307,7 +315,8 @@
 ## Extract a bzip2 compressed tar file.
 `tar xjf archive.tar.bz2`
 
-# 10 – INSTALLING PACKAGES<a name="installingpackages"></a>
+<a name="installingpackages"></a>
+# 10 – INSTALLING PACKAGES
 ## Search for a package by keyword.
 `yum search keyword`
 
@@ -330,7 +339,8 @@
 `make`
 `make install`
 
-# 11 – SEARCH<a name="search"></a>
+<a name="search"></a>
+# 11 – SEARCH
 ## Search for pattern in file
 `grep pattern file`
 
@@ -346,7 +356,8 @@
 ## Find files larger than 100MB in /home
 `find /home -size +100M`
 
-# 12 – SSH LOGINS<a name="sshlogins"></a>
+<a name="sshlogins"></a>
+# 12 – SSH LOGINS
 ## Connect to host as your local username.
 `ssh host`
 
@@ -356,7 +367,8 @@
 ## Connect to host using port
 `ssh -p port user@host`
 
-# 13 – FILE TRANSFERS<a name="filetransfers"></a>
+<a name="filetransfers"></a>
+# 13 – FILE TRANSFERS
 ## Secure copy file.txt to the /tmp folder on server
 `scp file.txt server:/tmp`
 
@@ -372,7 +384,8 @@
 ## Synchronize files/directories between the local and remote system with compression enabled
 `rsync -avz /home server:/backups/`
 
-# 14 – DISK USAGE<a name="diskusage"></a>
+<a name="diskusage"></a>
+# 14 – DISK USAGE
 ## Show free and used space on mounted filesystems
 `df -h`
 
@@ -388,7 +401,8 @@
 ## Display total disk usage off the current directory
 `du -sh`
 
-# 15 – DIRECTORY NAVIGATION<a name="directorynavigation"></a>
+<a name="directorynavigation"></a>
+# 15 – DIRECTORY NAVIGATION
 ## To go up one level of the directory tree.  (Change into the parent directory.)
 `cd ..`
 
