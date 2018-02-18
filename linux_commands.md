@@ -14,7 +14,8 @@
 [14 – DISK USAGE](#diskusage)<br>
 [15 – DIRECTORY NAVIGATION](#directorynavigation)<br>
 
-# 1 – SYSTEM INFORMATION <a name="systeminformation"></a>
+<a name="systeminformation"></a>
+# 1 – SYSTEM INFORMATION
 ## Display Linux system information
 `uname -a`
 
