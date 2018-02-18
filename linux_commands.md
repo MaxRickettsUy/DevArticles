@@ -16,7 +16,7 @@
 
 # 1 – SYSTEM INFORMATION <a name="systeminformation"></a>
 ## Display Linux system information
-'uname -a'
+`uname -a`
 
 ## Display kernel release information
 uname -r
