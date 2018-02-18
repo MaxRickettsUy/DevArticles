@@ -1,3 +1,4 @@
+<a name="top"></a>
 [1 – SYSTEM INFORMATION](#systeminformation)<br>
 [2 – HARDWARE INFORMATION](#hardwareinformation)<br>
 [3 – PERFORMANCE MONITORING AND STATISTICS](#performancemonitoring)<br>
@@ -15,7 +16,7 @@
 [15 – DIRECTORY NAVIGATION](#directorynavigation)<br>
 
 <a name="systeminformation"></a>
-# 1 – SYSTEM INFORMATION
+# 1 – SYSTEM INFORMATION [top](#top)
 ## Display Linux system information
 `uname -a`
 
@@ -50,7 +51,7 @@
 `whoami`
 
 <a name="hardwareinformation"></a>
-# 2 – HARDWARE INFORMATION
+# 2 – HARDWARE INFORMATION [top](#top)
 ## Display messages in kernel ring buffer
 `dmesg`
 
@@ -82,7 +83,7 @@
 `badblocks -s /dev/sda`
 
 <a name="performancemonitoring"></a>
-# 3 – PERFORMANCE MONITORING AND STATISTICS
+# 3 – PERFORMANCE MONITORING AND STATISTICS [top](#top)
 ## Display and manage the top processes
 `top`
 
@@ -120,7 +121,7 @@
 `watch df -h`
 
 <a name="userinformation"></a>
-# 4 – USER INFORMATION AND MANAGEMENT
+# 4 – USER INFORMATION AND MANAGEMENT [top](#top)
 ## Display the user and group ids of your current user.
 `id`
 
@@ -146,7 +147,7 @@
 `usermod -aG sales john`
 
 <a name="filedirectorycmds"></a>
-# 5 – FILE AND DIRECTORY COMMANDS
+# 5 – FILE AND DIRECTORY COMMANDS [top](#top)
 ## List all files in a long listing (detailed) format
 `ls -al`
 
@@ -199,7 +200,7 @@
 `tail -f file`
 
 <a name="processmgmt"></a>
-# 6 – PROCESS MANAGEMENT
+# 6 – PROCESS MANAGEMENT [top](#top)
 ## Display your currently running processes
 `ps`
 
@@ -234,7 +235,7 @@
 `fg n`
 
 <a name="filepermissions"></a>
-# 7 – FILE PERMISSIONS
+# 7 – FILE PERMISSIONS [top](#top)
 ## Linux chmod example
         PERMISSION      EXAMPLE
 
@@ -258,7 +259,7 @@
         - = no access
 
 <a name="networking"></a>
-# 8 – NETWORKING 
+# 8 – NETWORKING [top](#top)
 ## Display all network interfaces and ip address
 `ifconfig -a`
 
@@ -296,7 +297,7 @@
 `netstat -nutlp`
 
 <a name="archives"></a>
-# 9 – ARCHIVES (TAR FILES)
+# 9 – ARCHIVES (TAR FILES) [top](#top)
 ## Create tar named archive.tar containing directory.
 `tar cf archive.tar directory`
 
@@ -316,7 +317,7 @@
 `tar xjf archive.tar.bz2`
 
 <a name="installingpackages"></a>
-# 10 – INSTALLING PACKAGES
+# 10 – INSTALLING PACKAGES [top](#top)
 ## Search for a package by keyword.
 `yum search keyword`
 
@@ -340,7 +341,7 @@
 `make install`
 
 <a name="search"></a>
-# 11 – SEARCH
+# 11 – SEARCH [top](#top)
 ## Search for pattern in file
 `grep pattern file`
 
@@ -357,7 +358,7 @@
 `find /home -size +100M`
 
 <a name="sshlogins"></a>
-# 12 – SSH LOGINS
+# 12 – SSH LOGINS [top](#top)
 ## Connect to host as your local username.
 `ssh host`
 
@@ -368,7 +369,7 @@
 `ssh -p port user@host`
 
 <a name="filetransfers"></a>
-# 13 – FILE TRANSFERS
+# 13 – FILE TRANSFERS [top](#top)
 ## Secure copy file.txt to the /tmp folder on server
 `scp file.txt server:/tmp`
 
@@ -385,7 +386,7 @@
 `rsync -avz /home server:/backups/`
 
 <a name="diskusage"></a>
-# 14 – DISK USAGE
+# 14 – DISK USAGE [top](#top)
 ## Show free and used space on mounted filesystems
 `df -h`
 
@@ -402,7 +403,7 @@
 `du -sh`
 
 <a name="directorynavigation"></a>
-# 15 – DIRECTORY NAVIGATION
+# 15 – DIRECTORY NAVIGATION [top](#top)
 ## To go up one level of the directory tree.  (Change into the parent directory.)
 `cd ..`
 
