@@ -7,13 +7,9 @@ from pymongo import MongoClient
 if __name__ == "__main__":
 	con = MongoClient() #connection to db running on local machine
 	
-	db = con.albums #test_database is member var of con
+	db = con.albums #albums is member var of con
 
-	albums = db.albums_data #tables = collections, creating people collection
-	#no schema, so any data can be entered as a record
-	#people.insert({'name':'Mike', 'food':'cheese'})
-	#people.insert({'name':'John', 'food':'ham'})
-	#people.insert({'name':"max", "gorp":"lorp"})
+	albums = db.albums_data #tables = collections, creating albums_data collection
 
 	insert = True
 
