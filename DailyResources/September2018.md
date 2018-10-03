@@ -4,6 +4,7 @@ September 25th 2018:
 	https://stackoverflow.com/questions/28331673/jump-to-line-in-sublime-text
 	http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html
 	https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html
+	<br>
 September 26th 2018:
 	https://docs.spring.io/spring-data/mongodb/docs/current/api/org/springframework/data/mongodb/core/query/Query.html
 	https://docs.mongodb.com/manual/tutorial/query-documents/
@@ -20,6 +21,7 @@ September 26th 2018:
 	https://docs.mongodb.com/manual/core/schema-validation/
 	https://stackoverflow.com/questions/3804591/efficient-method-to-generate-uuid-string-in-java-uuid-randomuuid-tostring-w
 	https://docs.mongodb.com/manual/reference/operator/query/and/
+	<br>
 September 27th 2018:
 	https://stackoverflow.com/questions/28089215/two-ways-to-check-if-a-list-is-empty-differences
 	https://jsonformatter.org/json-pretty-print
