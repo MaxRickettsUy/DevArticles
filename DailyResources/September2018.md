@@ -1,11 +1,11 @@
-September 25th 2018:
+## September 25th 2018:
 	<p>https://docs.oracle.com/javase/7/docs/api/java/util/Map.html
 	https://stackoverflow.com/questions/16719529/inserting-values-in-map-k-v
 	https://stackoverflow.com/questions/28331673/jump-to-line-in-sublime-text
 	http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html
 	https://junit.org/junit4/javadoc/4.12/org/junit/Assert.html</p>
 	<br>
-September 26th 2018:
+## September 26th 2018:
 	<p>https://docs.spring.io/spring-data/mongodb/docs/current/api/org/springframework/data/mongodb/core/query/Query.html
 	https://docs.mongodb.com/manual/tutorial/query-documents/
 	https://docs.spring.io/spring-data/mongodb/docs/current/api/org/springframework/data/mongodb/core/query/Criteria.html
@@ -22,7 +22,7 @@ September 26th 2018:
 	https://stackoverflow.com/questions/3804591/efficient-method-to-generate-uuid-string-in-java-uuid-randomuuid-tostring-w
 	https://docs.mongodb.com/manual/reference/operator/query/and/</p>
 	<br>
-September 27th 2018:
+## September 27th 2018:
 	<p>https://stackoverflow.com/questions/28089215/two-ways-to-check-if-a-list-is-empty-differences
 	https://jsonformatter.org/json-pretty-print
 	https://stackoverflow.com/questions/32727836/how-to-sort-results-from-mongotemplate-findall
