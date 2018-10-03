@@ -1,5 +1,5 @@
 September 25th 2018:
-	https://docs.oracle.com/javase/7/docs/api/java/util/Map.html
+	<p>https://docs.oracle.com/javase/7/docs/api/java/util/Map.html</p>
 	https://stackoverflow.com/questions/16719529/inserting-values-in-map-k-v
 	https://stackoverflow.com/questions/28331673/jump-to-line-in-sublime-text
 	http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html
